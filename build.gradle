@@ -1,0 +1,59 @@
+plugins {
+	id "architectury-plugin" version "3.4-SNAPSHOT"
+	id "dev.architectury.loom" version "1.6-SNAPSHOT" apply false
+}
+
+architectury {
+	minecraft = rootProject.minecraft_version
+}
+
+subprojects {
+	apply plugin: "dev.architectury.loom"
+
+	loom {
+		silentMojangMappingsLicense()
+	}
+
+	dependencies {
+		minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+		mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}"
+	}
+}
+
+allprojects {
+	apply plugin: "java"
+	apply plugin: "architectury-plugin"
+	apply plugin: "maven-publish"
+
+	archivesBaseName = rootProject.archives_base_name
+	version = rootProject.mod_version
+	group = rootProject.maven_group
+
+	repositories {
+		maven { url 'https://jitpack.io' }
+		maven { url = "https://mvn.devos.one/releases/" }
+		maven { url = uri('./libs') } // Local Repository
+		maven {
+			url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
+			content {
+				includeGroup "com.jamieswhiteshirt"
+			}
+		}
+		maven {
+			name = "Cursemaven"
+			url "https://www.cursemaven.com"
+			content {
+				includeGroup "curse.maven"
+			}
+		}
+
+		tasks.withType(JavaCompile) {
+			options.encoding = "UTF-8"
+			options.release = 17
+		}
+
+		java {
+			withSourcesJar()
+		}
+	}
+}

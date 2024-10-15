@@ -1,0 +1,7 @@
+{
+  "block.createengineers.railway_engineer_table_block": "Railway Engineer Table",
+
+  "entity.minecraft.villager.customer": "Railway Engineer",
+
+  "itemGroup.createengineers.group": "§f\uE000"
+}

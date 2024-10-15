@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "createengineers",
+  "version": "1.0.0",
+  "name": "Create: Engineers",
+  "description": "New villager professions, job sites, and trades for Farmer's Delight.",
+  "authors": [
+    "average_anime"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.averageanime.createengineers.fabric.CreateEngineersFabric"
+    ],
+    "client": [
+      "net.averageanime.createengineers.fabric.CreateEngineersClientFabric"
+    ]
+  },
+  "mixins": [
+    "createengineers-fabric.mixins.json",
+    "createengineers-common.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  }
+}

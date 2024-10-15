@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[37,)"
+license = "CC0-1.0"
+
+[[mods]]
+modId = "createengineers"
+version = "${version}"
+displayName = "Delightful Chefs"
+authors = "average_anime"
+description = '''
+New villager professions, job sites, and trades for Farmer's Delight.
+'''
+logoFile = "../icon.png"
+
+[[dependencies.createengineers]]
+modId = "forge"
+mandatory = true
+versionRange = "[41.0.22,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createengineers]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"

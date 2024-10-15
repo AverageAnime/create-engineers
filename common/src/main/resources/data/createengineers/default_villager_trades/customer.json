@@ -1,0 +1,624 @@
+{
+  "profession": "createengineers:customer",
+  "trades": {
+    "novice": [
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:fruit_salad",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:fried_egg",
+          "count": 4
+        },
+        "max_uses": 1,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "farmersdelight:cabbage_rolls",
+          "count": 16
+        },
+        "max_uses": 1,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:mutton_wrap",
+          "count": 2
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:kelp_roll",
+          "count": 4
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:cod_roll",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:salmon_roll",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:noodle_soup",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:bone_broth",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:mixed_salad",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "farmersdelight:chicken_soup",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:nether_salad",
+          "count": 8
+        },
+        "max_uses": 1,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:pumpkin_soup",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "farmersdelight:beef_stew",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:fish_stew",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "farmersdelight:baked_cod_stew",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "farmersdelight:stuffed_potato",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:egg_sandwich",
+          "count": 8
+        },
+        "max_uses": 1,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:bacon_and_eggs",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:barbeque_stick",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:hamburger",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:bacon_sandwich",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "farmersdelight:mushroom_rice",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:chicken_sandwich",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 2
+        },
+        "priceIn": {
+          "item": "farmersdelight:fried_rice",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 4
+        },
+        "priceIn": {
+          "item": "farmersdelight:pasta_with_meatballs",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:steak_and_potatoes",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:roasted_mutton_chops",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 5
+        },
+        "priceIn": {
+          "item": "farmersdelight:squid_ink_pasta",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:pasta_with_mutton_chop",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:honey_glazed_ham",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 7
+        },
+        "priceIn": {
+          "item": "farmersdelight:dumplings",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:ratatouille",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 4
+        },
+        "priceIn": {
+          "item": "farmersdelight:rice_roll_medley_block",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:roast_chicken",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 4
+        },
+        "priceIn": {
+          "item": "farmersdelight:shepherds_pie",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:stuffed_pumpkin",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "rabbit_stew",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 7
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 14
+        },
+        "priceIn": {
+          "item": "farmersdelight:apple_pie_slice",
+          "count": 11
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:sweet_berry_cookie",
+          "count": 4
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "cookie",
+          "count": 8
+        },
+        "max_uses": 1,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 13
+        },
+        "priceIn": {
+          "item": "farmersdelight:chocolate_pie_slice",
+          "count": 7
+        },
+        "max_uses": 1,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:sweet_berry_cheesecake_slice",
+          "count": 21
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "farmersdelight:honey_cookie",
+          "count": 16
+        },
+        "max_uses": 1,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 4
+        },
+        "priceIn": {
+          "item": "farmersdelight:glow_berry_custard",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "pumpkin_pie",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "farmersdelight:cake_slice",
+          "count": 1
+        },
+        "max_uses": 1,
+        "villager_experience": 7
+      }
+    ],
+    "expert": [],
+    "master": []
+  }
+}
