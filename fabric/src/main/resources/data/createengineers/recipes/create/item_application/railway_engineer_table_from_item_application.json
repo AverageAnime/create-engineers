@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "item": "create:controls"
+        },
+        {
+            "item": "create:clipboard"
+        }
+    ],
+    "results": [
+        {
+            "item": "createengineers:railway_engineer_table"
+        }
+    ]
+}

@@ -1,8 +1,8 @@
-package net.averageanime.delightfulchefs.forge;
+package net.averageanime.createengineers.forge;
 
-import net.averageanime.delightfulchefs.platform.forge.DefaultTradeOfferResourceListener;
-import net.averageanime.delightfulchefs.platform.forge.RegistryHelperImpl;
-import net.averageanime.delightfulchefs.platform.forge.TradeOfferResourceListener;
+import net.averageanime.createengineers.platform.forge.DefaultTradeOfferResourceListener;
+import net.averageanime.createengineers.platform.forge.RegistryHelperImpl;
+import net.averageanime.createengineers.platform.forge.TradeOfferResourceListener;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,15 +14,15 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 
-@Mod(net.averageanime.delightfulchefs.CreateEngineers.MOD_ID)
-public class DelightfulChefsForge {
+@Mod(net.averageanime.createengineers.CreateEngineers.MOD_ID)
+public class CreateEngineersForge {
 
-    public DelightfulChefsForge() {
+    public CreateEngineersForge() {
 
-        net.averageanime.delightfulchefs.CreateEngineers.init();
+        net.averageanime.createengineers.CreateEngineers.init();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
-            net.averageanime.delightfulchefs.CreateEngineersClient.init();
+            net.averageanime.createengineers.CreateEngineersClient.init();
         }
 
         IEventBus forgeBus = MinecraftForge.EVENT_BUS;
@@ -37,10 +37,10 @@ public class DelightfulChefsForge {
         RegistryHelperImpl.POINT_OF_INTEREST_TYPES.register(bus);
         RegistryHelperImpl.VILLAGER_PROFESSIONS.register(bus);
 
-        bus.addListener(DelightfulChefsForge::addItemsToTabs);
+        bus.addListener(CreateEngineersForge::addItemsToTabs);
 
         forgeBus.register(this);
-        forgeBus.addListener(DelightfulChefsForge::registerResourceReloader);
+        forgeBus.addListener(CreateEngineersForge::registerResourceReloader);
     }
 
     @SubscribeEvent

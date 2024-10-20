@@ -1,11 +1,11 @@
-package net.averageanime.delightfulchefs.platform.forge;
+package net.averageanime.createengineers.platform.forge;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import net.averageanime.delightfulchefs.tradeoffers.TradeOfferManager;
-import net.averageanime.delightfulchefs.tradeoffers.TradeOfferRegistryLoader;
+import net.averageanime.createengineers.tradeoffers.TradeOfferManager;
+import net.averageanime.createengineers.tradeoffers.TradeOfferRegistryLoader;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.registry.Registries;
 import net.minecraft.resource.*;
@@ -45,13 +45,13 @@ public class TradeOfferResourceListener extends JsonDataLoader implements Resour
         String id = villager.id();
         if (id.contains(":")) id = id.split(":")[1];
 
-        InputSupplier<InputStream> tradeInputStreamSupplier = pack.open(ResourceType.SERVER_DATA, new Identifier(net.averageanime.delightfulchefs.CreateEngineers.MOD_ID, "villager_trades/" + id + ".json"));
+        InputSupplier<InputStream> tradeInputStreamSupplier = pack.open(ResourceType.SERVER_DATA, new Identifier(net.averageanime.createengineers.CreateEngineers.MOD_ID, "villager_trades/" + id + ".json"));
 
         if (tradeInputStreamSupplier == null || tradeInputStreamSupplier.get() == null) {
             return;
         }
 
-        net.averageanime.delightfulchefs.CreateEngineers.LOGGER.info("Deserializing datapack added trades of profession: " + net.averageanime.delightfulchefs.CreateEngineers.MOD_ID + ":" + villager + " from " + pack.getName());
+        net.averageanime.createengineers.CreateEngineers.LOGGER.info("Deserializing datapack added trades of profession: " + net.averageanime.createengineers.CreateEngineers.MOD_ID + ":" + villager + " from " + pack.getName());
 
         JsonObject tradeData = new Gson().fromJson(new InputStreamReader(tradeInputStreamSupplier.get()), JsonObject.class);
 

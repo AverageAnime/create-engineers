@@ -17,11 +17,23 @@ import static net.averageanime.createengineers.init.ModBlocks.*;
 public class ModPOIFabric {
     private static final HashMap<String, Supplier<PointOfInterestType>> REGISTERED_POINT_OF_INTEREST_TYPES;
 
+    public final static Supplier<PointOfInterestType> WORKER_TABLE_POI;
+
+    public final static Supplier<PointOfInterestType> MECHANICAL_ENGINEER_TABLE_POI;
+
+    public final static Supplier<PointOfInterestType> HYDRAULIC_ENGINEER_TABLE_POI;
+
     public final static Supplier<PointOfInterestType> RAILWAY_ENGINEER_TABLE_POI;
 
     static {
 
         REGISTERED_POINT_OF_INTEREST_TYPES = new HashMap<>();
+
+        WORKER_TABLE_POI = registerPointOfInterest("worker_table_poi", () -> new PointOfInterestType(PointOfInterestTypes.getStatesOfBlock(WORKER_TABLE_BLOCK.get()), 1, 1));
+
+        MECHANICAL_ENGINEER_TABLE_POI = registerPointOfInterest("mechanical_engineer_table_poi", () -> new PointOfInterestType(PointOfInterestTypes.getStatesOfBlock(MECHANICAL_ENGINEER_TABLE_BLOCK.get()), 1, 1));
+
+        HYDRAULIC_ENGINEER_TABLE_POI = registerPointOfInterest("hydraulic_engineer_table_poi", () -> new PointOfInterestType(PointOfInterestTypes.getStatesOfBlock(HYDRAULIC_ENGINEER_TABLE_BLOCK.get()), 1, 1));
 
         RAILWAY_ENGINEER_TABLE_POI = registerPointOfInterest("railway_engineer_table_poi", () -> new PointOfInterestType(PointOfInterestTypes.getStatesOfBlock(RAILWAY_ENGINEER_TABLE_BLOCK.get()), 1, 1));
 

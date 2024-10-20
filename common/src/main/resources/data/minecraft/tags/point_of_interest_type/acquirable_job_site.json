@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
 
+    "createengineers:worker_table_poi",
+    "createengineers:mechanical_engineer_table_poi",
+    "createengineers:hydraulic_engineer_table_poi",
     "createengineers:railway_engineer_table_poi"
 
   ]

@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "item": "create:millstone"
+        },
+        {
+            "item": "create:portable_item_interface"
+        }
+    ],
+    "results": [
+        {
+            "item": "createengineers:mechanical_engineer_table"
+        }
+    ]
+}

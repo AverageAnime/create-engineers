@@ -1,0 +1,824 @@
+{
+  "profession": "createengineers:worker",
+  "trades": {
+    "novice": [
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "andesite",
+          "count": 14
+        },
+        "max_uses": 6,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 4
+        },
+        "priceIn": {
+          "item": "andesite",
+          "count": 8
+        },
+        "convertible": {
+          "item": "cobblestone",
+          "count": 2
+        },
+        "max_uses": 5,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "copper_ingot",
+          "count": 6
+        },
+        "max_uses": 5,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 20
+        },
+        "priceIn": {
+          "item": "copper_ingot",
+          "count": 10
+        },
+        "convertible": {
+          "item": "raw_copper",
+          "count": 5
+        },
+        "max_uses": 7,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 21
+        },
+        "priceIn": {
+          "item": "create:copper_sheet",
+          "count": 1
+        },
+        "convertible": {
+          "item": "copper_ingot",
+          "count": 1
+        },
+        "max_uses": 9,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 20
+        },
+        "priceIn": {
+          "item": "create:iron_sheet",
+          "count": 5
+        },
+        "convertible": {
+          "item": "iron_ingot",
+          "count": 4
+        },
+        "max_uses": 4,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 31
+        },
+        "priceIn": {
+          "item": "create:shaft",
+          "count": 16
+        },
+        "convertible": {
+          "item": "create:andesite_alloy",
+          "count": 3
+        },
+        "max_uses": 6,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 5
+        },
+        "reward": {
+          "item": "create:wrench",
+          "count": 1
+        },
+        "max_uses": 5,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 10
+        },
+        "priceIn": {
+          "item": "dried_kelp",
+          "count": 20
+        },
+        "convertible": {
+          "item": "kelp",
+          "count": 6
+        },
+        "max_uses": 4,
+        "villager_experience": 8
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:andesite_alloy",
+          "count": 8
+        },
+        "max_uses": 2,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 30
+        },
+        "priceIn": {
+          "item": "create:andesite_alloy",
+          "count": 11
+        },
+        "convertible": {
+          "item": "iron_ingot",
+          "count": 10
+        },
+        "max_uses": 10,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 19
+        },
+        "priceIn": {
+          "item": "create:cogwheel",
+          "count": 3
+        },
+        "convertible": {
+          "item": "create:shaft",
+          "count": 6
+        },
+        "max_uses": 8,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:copper_sheet",
+          "count": 8
+        },
+        "max_uses": 4,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "create:copper_sheet",
+          "count": 16
+        },
+        "max_uses": 9,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 21
+        },
+        "priceIn": {
+          "item": "create:gearbox",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:cogwheel",
+          "count": 6
+        },
+        "max_uses": 6,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 6
+        },
+        "reward": {
+          "item": "create:goggles",
+          "count": 1
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 1
+        },
+        "reward": {
+          "item": "create:iron_sheet",
+          "count": 2
+        },
+        "max_uses": 4,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "create:iron_sheet",
+          "count": 8
+        },
+        "max_uses": 8,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "create:placard",
+          "count": 4
+        },
+        "max_uses": 3,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 20
+        },
+        "priceIn": {
+          "item": "create:propeller",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:iron_sheet",
+          "count": 8
+        },
+        "max_uses": 5,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "create:raw_zinc",
+          "count": 6
+        },
+        "max_uses": 10,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 20
+        },
+        "priceIn": {
+          "item": "create:zinc_ingot",
+          "count": 7
+        },
+        "convertible": {
+          "item": "create:raw_zinc",
+          "count": 5
+        },
+        "max_uses": 9,
+        "villager_experience": 4
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "create:blaze_burner",
+          "count": 1
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 5
+        },
+        "reward": {
+          "item": "create:brass_ingot",
+          "count": 3
+        },
+        "max_uses": 8,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 5
+        },
+        "priceIn": {
+          "item": "create:brass_ingot",
+          "count": 4
+        },
+        "max_uses": 4,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 29
+        },
+        "priceIn": {
+          "item": "create:brass_ingot",
+          "count": 20
+        },
+        "convertible": {
+          "item": "create:andesite_alloy",
+          "count": 18
+        },
+        "max_uses": 4,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:copper_casing",
+          "count": 1
+        },
+        "max_uses": 4,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 11
+        },
+        "priceIn": {
+          "item": "create:fluid_pipe",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:copper_sheet",
+          "count": 2
+        },
+        "max_uses": 11,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 41
+        },
+        "priceIn": {
+          "item": "create:fluid_tank",
+          "count": 2
+        },
+        "convertible": {
+          "item": "copper_ingot",
+          "count": 3
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:golden_sheet",
+          "count": 3
+        },
+        "max_uses": 8,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 1
+        },
+        "priceIn": {
+          "item": "create:golden_sheet",
+          "count": 2
+        },
+        "max_uses": 10,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 6
+        },
+        "priceIn": {
+          "item": "create:item_vault",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:iron_sheet",
+          "count": 4
+        },
+        "max_uses": 7,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 20
+        },
+        "priceIn": {
+          "item": "create:large_cogwheel",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:cogwheel",
+          "count": 3
+        },
+        "max_uses": 11,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 64
+        },
+        "priceIn": {
+          "item": "create:spout",
+          "count": 2
+        },
+        "convertible": {
+          "item": "dried_kelp_block",
+          "count": 2
+        },
+        "max_uses": 5,
+        "villager_experience": 5
+      }
+    ],
+    "expert": [
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 34
+        },
+        "priceIn": {
+          "item": "create:brass_hand",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:golden_sheet",
+          "count": 5
+        },
+        "max_uses": 5,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 64
+        },
+        "priceIn": {
+          "item": "create:brass_tunnel",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:andesite_tunnel",
+          "count": 4
+        },
+        "max_uses": 6,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 10
+        },
+        "priceIn": {
+          "item": "create:display_link",
+          "count": 3
+        },
+        "convertible": {
+          "item": "create:brass_casing",
+          "count": 3
+        },
+        "max_uses": 9,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 11
+        },
+        "priceIn": {
+          "item": "create:filter",
+          "count": 2
+        },
+        "convertible": {
+          "item": "iron_ingot",
+          "count": 1
+        },
+        "max_uses": 4,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 31
+        },
+        "priceIn": {
+          "item": "create:mechanical_crafter",
+          "count": 1
+        },
+        "convertible": {
+          "item": "create:gearbox",
+          "count": 2
+        },
+        "max_uses": 6,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 31
+        },
+        "priceIn": {
+          "item": "create:mechanical_pump",
+          "count": 1
+        },
+        "convertible": {
+          "item": "create:fluid_pipe",
+          "count": 2
+        },
+        "max_uses": 7,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 18
+        },
+        "priceIn": {
+          "item": "create:portable_fluid_interface",
+          "count": 3
+        },
+        "convertible": {
+          "item": "create:chute",
+          "count": 3
+        },
+        "max_uses": 9,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 18
+        },
+        "priceIn": {
+          "item": "create:portable_storage_interface",
+          "count": 3
+        },
+        "convertible": {
+          "item": "create:chute",
+          "count": 3
+        },
+        "max_uses": 11,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 56
+        },
+        "reward": {
+          "item": "create:rose_quartz",
+          "count": 3
+        },
+        "max_uses": 8,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 26
+        },
+        "priceIn": {
+          "item": "create:rose_quartz",
+          "count": 2
+        },
+        "max_uses": 11,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 39
+        },
+        "priceIn": {
+          "item": "create:sequenced_gearshift",
+          "count": 3
+        },
+        "convertible": {
+          "item": "create:electron_tube",
+          "count": 2
+        },
+        "max_uses": 10,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 39
+        },
+        "priceIn": {
+          "item": "create:whisk",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:andesite_alloy",
+          "count": 10
+        },
+        "max_uses": 4,
+        "villager_experience": 8
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 7
+        },
+        "reward": {
+          "item": "create:zinc_block",
+          "count": 1
+        },
+        "max_uses": 8,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 16
+        },
+        "priceIn": {
+          "item": "create:zinc_block",
+          "count": 3
+        },
+        "max_uses": 7,
+        "villager_experience": 6
+      }
+    ],
+    "master": [
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 10
+        },
+        "priceIn": {
+          "item": "create:mechanical_arm",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:precision_mechanism",
+          "count": 1
+        },
+        "max_uses": 4,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 64
+        },
+        "priceIn": {
+          "item": "create:smart_fluid_pipe",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:electron_tube",
+          "count": 2
+        },
+        "max_uses": 10,
+        "villager_experience": 6
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 64
+        },
+        "priceIn": {
+          "item": "create:steam_engine",
+          "count": 1
+        },
+        "convertible": {
+          "item": "create:andesite_alloy",
+          "count": 15
+        },
+        "max_uses": 4,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "create:sturdy_sheet",
+          "count": 3
+        },
+        "max_uses": 8,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "create:sturdy_sheet",
+          "count": 3
+        },
+        "max_uses": 5,
+        "villager_experience": 4
+      }
+    ]
+  }
+}

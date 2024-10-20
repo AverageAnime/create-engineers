@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "item": "create:fluid_tank"
+        },
+        {
+            "item": "create:portable_fluid_interface"
+        }
+    ],
+    "results": [
+        {
+            "item": "createengineers:hydraulic_engineer_table"
+        }
+    ]
+}

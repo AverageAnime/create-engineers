@@ -1,4 +1,4 @@
-package net.averageanime.delightfulchefs.platform.forge;
+package net.averageanime.createengineers.platform.forge;
 
 import net.minecraftforge.fml.loading.FMLPaths;
 

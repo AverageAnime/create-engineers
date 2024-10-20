@@ -1,0 +1,235 @@
+{
+  "profession": "createengineers:hydraulic_engineer",
+  "trades": {
+    "novice": [
+      {
+        "type": "createengineers:sell_item",
+        "sell": {
+          "item": "emerald",
+          "count": 3
+        },
+        "priceIn": {
+          "item": "create:copper_sheet",
+          "count": 8
+        },
+        "max_uses": 10,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 21
+        },
+        "priceIn": {
+          "item": "create:copper_valve_handle",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:andesite_alloy_block",
+          "count": 1
+        },
+        "max_uses": 11,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:fluid_pipe",
+          "count": 6
+        },
+        "max_uses": 6,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:fluid_tank",
+          "count": 1
+        },
+        "max_uses": 2,
+        "villager_experience": 5
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:basin",
+          "count": 1
+        },
+        "max_uses": 2,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 2
+        },
+        "reward": {
+          "item": "create:fluid_valve",
+          "count": 3
+        },
+        "max_uses": 7,
+        "villager_experience": 5
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 64
+        },
+        "priceIn": {
+          "item": "create:hose_pulley",
+          "count": 2
+        },
+        "convertible": {
+          "item": "create:copper_casing",
+          "count": 2
+        },
+        "max_uses": 6,
+        "villager_experience": 7
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "create:spout",
+          "count": 1
+        },
+        "max_uses": 5,
+        "villager_experience": 4
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 7
+        },
+        "reward": {
+          "item": "create:copper_backtank",
+          "count": 1
+        },
+        "max_uses": 3,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:process_item",
+        "sell": {
+          "item": "emerald",
+          "count": 32
+        },
+        "priceIn": {
+          "item": "create:item_drain",
+          "count": 1
+        },
+        "convertible": {
+          "item": "create:copper_casing",
+          "count": 1
+        },
+        "max_uses": 12,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "create:mechanical_pump",
+          "count": 1
+        },
+        "max_uses": 3,
+        "villager_experience": 4
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "create:waterwheel",
+          "count": 4
+        },
+        "max_uses": 7,
+        "villager_experience": 4
+      }
+    ],
+    "expert": [
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 4
+        },
+        "reward": {
+          "item": "create:copper_diving_boots",
+          "count": 1
+        },
+        "max_uses": 3,
+        "villager_experience": 3
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 1
+        },
+        "reward": {
+          "item": "create:large_water_wheel",
+          "count": 3
+        },
+        "max_uses": 8,
+        "villager_experience": 5
+      }
+    ],
+    "master": [
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 3
+        },
+        "reward": {
+          "item": "create:copper_diving_helmet",
+          "count": 1
+        },
+        "max_uses": 8,
+        "villager_experience": 2
+      },
+      {
+        "type": "createengineers:buy_item",
+        "buy": {
+          "item": "emerald",
+          "count": 6
+        },
+        "reward": {
+          "item": "create:portable_fluid_interface",
+          "count": 2
+        },
+        "max_uses": 8,
+        "villager_experience": 4
+      }
+    ]
+  }
+}

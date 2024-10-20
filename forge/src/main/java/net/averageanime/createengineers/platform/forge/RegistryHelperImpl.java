@@ -1,4 +1,4 @@
-package net.averageanime.delightfulchefs.platform.forge;
+package net.averageanime.createengineers.platform.forge;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
@@ -25,14 +25,14 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class RegistryHelperImpl {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<ParticleType<?>> PARTICLES = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<ScreenHandlerType<?>> MENUS = DeferredRegister.create(ForgeRegistries.MENU_TYPES, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<ItemGroup> CREATIVE_TABS = DeferredRegister.create(RegistryKeys.ITEM_GROUP, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<PointOfInterestType> POINT_OF_INTEREST_TYPES = DeferredRegister.create(ForgeRegistries.POI_TYPES, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
-    public static final DeferredRegister<VillagerProfession> VILLAGER_PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, net.averageanime.delightfulchefs.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<ParticleType<?>> PARTICLES = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<ScreenHandlerType<?>> MENUS = DeferredRegister.create(ForgeRegistries.MENU_TYPES, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<ItemGroup> CREATIVE_TABS = DeferredRegister.create(RegistryKeys.ITEM_GROUP, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<PointOfInterestType> POINT_OF_INTEREST_TYPES = DeferredRegister.create(ForgeRegistries.POI_TYPES, net.averageanime.createengineers.CreateEngineers.MOD_ID);
+    public static final DeferredRegister<VillagerProfession> VILLAGER_PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, net.averageanime.createengineers.CreateEngineers.MOD_ID);
 
     public static final HashMap<RegistryKey<ItemGroup>, List<Item>> ITEMS_TO_ADD = new HashMap<>();
 

@@ -1,9 +1,9 @@
-package net.averageanime.delightfulchefs.platform.forge;
+package net.averageanime.createengineers.platform.forge;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
-import net.averageanime.delightfulchefs.tradeoffers.TradeOfferManager;
-import net.averageanime.delightfulchefs.tradeoffers.TradeOfferRegistryLoader;
+import net.averageanime.createengineers.tradeoffers.TradeOfferManager;
+import net.averageanime.createengineers.tradeoffers.TradeOfferRegistryLoader;
 import net.minecraft.resource.JsonDataLoader;
 import net.minecraft.resource.ResourceManager;
 import net.minecraft.resource.ResourceReloader;
@@ -26,7 +26,7 @@ public class DefaultTradeOfferResourceListener extends JsonDataLoader implements
                 return;
             }
 
-            net.averageanime.delightfulchefs.CreateEngineers.LOGGER.info("Deserializing default trades of profession: " + jsonElement.getAsJsonObject().get("profession").getAsString());
+            net.averageanime.createengineers.CreateEngineers.LOGGER.info("Deserializing default trades of profession: " + jsonElement.getAsJsonObject().get("profession").getAsString());
 
             TradeOfferManager.deserializeJson(jsonElement.getAsJsonObject());
         });

@@ -1,7 +1,13 @@
 {
-  "block.createengineers.railway_engineer_table_block": "Railway Engineer Table",
+  "block.createengineers.railway_engineer_table_block": "Railway Engineer Worktable",
+  "block.createengineers.hydraulic_engineer_table_block": "Hydraulic Engineer Worktable",
+  "block.createengineers.mechanical_engineer_table_block": "Mechanical Engineer Worktable",
+  "block.createengineers.worker_table_block": "Factory Worktable",
 
-  "entity.minecraft.villager.customer": "Railway Engineer",
+  "entity.minecraft.villager.railway_engineer": "Railway Engineer",
+  "entity.minecraft.villager.hydraulic_engineer": "Hydraulic Engineer",
+  "entity.minecraft.villager.mechanical_engineer": "Mechanical Engineer",
+  "entity.minecraft.villager.worker": "Factory Worker",
 
   "itemGroup.createengineers.group": "§f\uE000"
 }

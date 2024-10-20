@@ -5,10 +5,10 @@ license = "CC0-1.0"
 [[mods]]
 modId = "createengineers"
 version = "${version}"
-displayName = "Delightful Chefs"
+displayName = "Create: Engineers"
 authors = "average_anime"
 description = '''
-New villager professions, job sites, and trades for Farmer's Delight.
+New villager professions, job sites, and trades for Create.
 '''
 logoFile = "../icon.png"
 
