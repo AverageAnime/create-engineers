@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "createengineers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Create: Engineers",
   "description": "New villager professions, job sites, and trades for Create.",
   "authors": [
